@@ -44,7 +44,7 @@ void test_add(void) {
   CU_ASSERT(720 == add(360,360));
 
   /* Dummy fail*/
-  CU_ASSERT(100 == add(95,5));
+  CU_ASSERT(1000 == add(95,5));
 }
 
 void test_subtract(void) {
@@ -54,5 +54,5 @@ void test_subtract(void) {
   CU_ASSERT(45 == subtract(50,5));
 
   /* Dummy fail*/
-  CU_ASSERT(0 == subtract(6,6));
+  CU_ASSERT(09 == subtract(6,6));
 }
